@@ -1,0 +1,48 @@
+@font-face {font-family: 'AvenirNextPro';font-weight: 700;font-style: normal;src: url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_0_0.eot");src: url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_0_0.eot?#iefix") format("embedded-opentype"), url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_0_0.woff2") format("woff2"), url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_0_0.woff") format("woff"), url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_0_0.ttf") format("truetype"), url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_0_0.svg#wf") format("svg");}
+@font-face {font-family: 'AvenirNextPro';font-weight: 500;font-style: normal;src: url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_2_0.eot");src: url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_2_0.eot?#iefix") format("embedded-opentype"), url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_2_0.woff2") format("woff2"), url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_2_0.woff") format("woff"), url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_2_0.ttf") format("truetype"), url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_2_0.svg#wf") format("svg");}
+@font-face {font-family: 'AvenirNextPro';font-weight: 400;font-style: normal;src: url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_3_0.eot");src: url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_3_0.eot?#iefix") format("embedded-opentype"), url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_3_0.woff2") format("woff2"), url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_3_0.woff") format("woff"), url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_3_0.ttf") format("truetype"), url("https://storage.googleapis.com/microblink-data-public/general-static-assets/webfonts/3573C4_3_0.svg#wf") format("svg");}
+
+.microblink-ui-component-wrapper {
+    max-width: 800px;
+    height: 445px;
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+microblink-ui-web {
+    --mb-widget-font-family: AvenirNextPro;
+    --mb-hem: 20px;
+    --mb-widget-border-width: 4px;
+    --mb-alt-font-color: #575757;
+    --mb-default-font-color: #48b2e8;
+    --mb-btn-font-color: white;
+    --mb-btn-background-color: #48b2e8;
+    --mb-btn-background-color-hover: #26a4e4;
+    --mb-btn-border-radius: 0;
+    --mb-btn-flip-image-color: #48b2e8;
+    --mb-btn-cancel-color: #48b2e8;
+    --mb-btn-webcam-confirm-color: #48b2e8;
+    --mb-btn-webcam-retake-color: #48b2e8;
+    --mb-dropzone-hover-color: rgba(72, 178, 232, .25);
+    --mb-loader-font-color: black;
+    --mb-loader-background-color: #48b2e8;
+    --mb-counter-background-color: rgba(72, 178, 232, 0.7);
+    --mb-counter-font-color: black;
+    --mb-tabs-hover-color: #26a4e4;
+    --mb-tabs-active-color: #48b2e8;
+    --mb-json-color-key: black;
+    --mb-json-color-string: #48b2e8;
+    --mb-json-color-boolean: #26a4e4;
+    --mb-json-color-number: black;
+    --mb-json-color-null: #26a4e4;
+    --mb-dialog-font-color: white;
+    --mb-dialog-background-color: black;
+    /*--mb-progress-bar-value-color: #48b2e8;
+    --mb-progress-bar-color: rgba(72, 128, 232, 0.25);*/
+}
+
+microblink-ui-web .hide-until-component-is-loaded {
+    visibility: hidden;
+}
